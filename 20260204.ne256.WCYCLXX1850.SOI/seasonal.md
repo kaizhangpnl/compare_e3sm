@@ -39,6 +39,20 @@
 
 ---
 
+### `TGCLDLWP_OCN` — Seasonal Progression
+
+| Season | TEST | CTRL |
+|---|---|---|
+| DJF | <img src="https://portal.nersc.gov/project/e3sm/wlin/E3SMv4_dev/20260204.ne256.WCYCLXX1850.SOI/e3sm_diags/model_vs_obs_0001-0010/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-DJF-global.png" width="250"> | <img src="https://web.lcrc.anl.gov/public/e3sm/diagnostic_output/wlin/E3SMv3/v3.LR.piControl/e3sm_diags/atm_monthly_180x360_aave/model_vs_obs_0001-0030/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-DJF-global.png" width="250"> |
+| MAM | <img src="https://portal.nersc.gov/project/e3sm/wlin/E3SMv4_dev/20260204.ne256.WCYCLXX1850.SOI/e3sm_diags/model_vs_obs_0001-0010/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-MAM-global.png" width="250"> | <img src="https://web.lcrc.anl.gov/public/e3sm/diagnostic_output/wlin/E3SMv3/v3.LR.piControl/e3sm_diags/atm_monthly_180x360_aave/model_vs_obs_0001-0030/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-MAM-global.png" width="250"> |
+| JJA | <img src="https://portal.nersc.gov/project/e3sm/wlin/E3SMv4_dev/20260204.ne256.WCYCLXX1850.SOI/e3sm_diags/model_vs_obs_0001-0010/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-JJA-global.png" width="250"> | <img src="https://web.lcrc.anl.gov/public/e3sm/diagnostic_output/wlin/E3SMv3/v3.LR.piControl/e3sm_diags/atm_monthly_180x360_aave/model_vs_obs_0001-0030/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-JJA-global.png" width="250"> |
+| SON | <img src="https://portal.nersc.gov/project/e3sm/wlin/E3SMv4_dev/20260204.ne256.WCYCLXX1850.SOI/e3sm_diags/model_vs_obs_0001-0010/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-SON-global.png" width="250"> | <img src="https://web.lcrc.anl.gov/public/e3sm/diagnostic_output/wlin/E3SMv3/v3.LR.piControl/e3sm_diags/atm_monthly_180x360_aave/model_vs_obs_0001-0030/lat_lon/Cloud%20SSM/I/SSMI-TGCLDLWP_OCN-SON-global.png" width="250"> |
+
+**Seasonal pattern:** The underestimate is year-round and global, without seasonal reversal. The Southern Ocean deficit peaks in DJF (austral summer), when observed LWP is highest and mixed-phase conditions are most extensive; the model fails to generate the observed summertime LWP peak, suggesting the microphysics transition from liquid to ice occurs too readily even in relatively warm conditions (T > −20 °C). Note that SSM/I only observes DJF and JJA (MAM/SON are absent from the e3sm-diags output), so the year-round character is inferred from the two available seasons plus the ANN climatology.
+
+
+---
+
 ### `SHFLX` — Seasonal Progression
 
 | Season | TEST | CTRL |
